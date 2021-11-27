@@ -1,0 +1,69 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  #container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .panel {
+    background-color: #fff;
+    background-color: transparent !important;
+    text-align: center;
+  }
+
+  #container .product-name {
+    font-size: 1.2em;
+  }
+
+  #container .product-attribute {
+    border-bottom: 1px solid #000;
+    width: 100%;
+  }
+
+  #container .proudct-price {
+    font-size: 1.1em;
+  }
+
+
+  #container i {
+    color: #ef9e40;
+    font-size: 1.5em;
+  }
+
+  #first_screen{
+    background-image: url('../asset/first_screen.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+  }
+
+  #product_detail{
+    overflow: hidden;
+    /* width: 80%; */
+  }
+  model-viewer{
+    margin:auto;
+    max-height:400px;
+    width: 100%;
+    --poster-color: transparent;
+    --progress-mask: transparent;
+  }
+  .modal a.close-modal{
+    top:0 !important;
+    right:0 !important;
+  }
+  .blocker{
+    background-color: transparent !important;
+  }
+  .modal{
+    background-color: transparent !important;
+    color: white;
+    box-shadow: none !important;
+  }
+  
